@@ -1,0 +1,40 @@
+module ClkDivider (
+	input MR_n,					// Master reset 
+	input CEP, 					// Count enable
+	input clock50, 			// System clock
+	// Need ot divide clk by maximum 256 
+	// log2(256) = 8 
+	output [7:0] Qn_out, 	// Current count value
+	output TC_out				// Count complete 
+);
+
+reg [9:0] counterValue; 
+
+always @(posedge(clock50))
+	begin 
+		if(MR_n == 1'b0)
+			begin
+				counterValue = 10'b0000000000; 
+			end
+		else if(CEP == 1'b1)
+			begin 
+				// The counter is active, so check to see whether 
+				// it has expired (wrap around)
+				if(counterValue == 10'b1111111111)
+					begin 
+						counterValue = 10'b0000000000; 
+					end
+				else 
+					begin 
+						counterValue = counterValue + 1; 
+					end
+			end
+		else 
+			counterValue = counterValue; 
+
+end
+
+assign Qn_out = counterValue; 
+assign TC_out = &counterValue; // counterValue[7] & counterValue[6] ...	
+
+endmodule

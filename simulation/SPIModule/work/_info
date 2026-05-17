@@ -1,0 +1,106 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+Z2 !s12c _opt
+R1
+R2
+R1
+R2
+R1
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z3 d/home/ritish/Desktop/2026Uni/ADD1/projects/Lab4/simulation/Lab4
+T_opt
+!i145 1
+!i144 0
+!s110 1778555576
+VeTm3ANI85jHc7<>aBBX<^1
+04 10 4 work ClkDivider fast 0
+=10-cc3d824d1dbd-6a029ab8-39b9c-b7eb
+R1
+Z4 !s12f OEM100
+Z5 !s12b OEM100
+!s124 OEM10U1 
+Z6 !s135 nogc
+Z7 o-quiet -auto_acc_if_foreign -work work +acc
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2025.2;82
+R3
+T_opt1
+!i145 1
+!i144 0
+!s110 1778722435
+Vj`ziL3DTH>RCAB5?NG@n`0
+04 9 4 work SPIModule fast 0
+=9-cc3d824d1dbd-6a052683-9dfa3-1203c
+R1
+R4
+R5
+!s124 OEM10U2 
+R6
+R7
+R8
+n@_opt1
+R9
+vClkDivider
+2/home/ritish/Desktop/2026Uni/ADD1/SPIModule/ClkDivider.v
+Z10 !s110 1778722432
+!i10b 1
+!s100 W[Z@2HoVNdYHhYdNcEYS_2
+INE7`GJ=iFL]T@XSIYC;bD2
+Z11 d/home/ritish/Desktop/2026Uni/ADD1/SPIModule/simulation/SPIModule
+w1778555494
+8/home/ritish/Desktop/2026Uni/ADD1/SPIModule/ClkDivider.v
+F/home/ritish/Desktop/2026Uni/ADD1/SPIModule/ClkDivider.v
+!i122 9
+L0 1 51
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2025.2;82
+r1
+!s85 0
+31
+!s108 1778722431.000000
+!s107 /home/ritish/Desktop/2026Uni/ADD1/SPIModule/ClkDivider.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/ritish/Desktop/2026Uni/ADD1/SPIModule/ClkDivider.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
+n@clk@divider
+vSPIModule
+2/home/ritish/Desktop/2026Uni/ADD1/SPIModule/SPIModule.v
+R10
+!i10b 1
+!s100 ?QA5FToCG`Nz=CPMLBHaG2
+Ic9O2d`X<_@1MiMjFMgnA[0
+R11
+w1778722400
+8/home/ritish/Desktop/2026Uni/ADD1/SPIModule/SPIModule.v
+F/home/ritish/Desktop/2026Uni/ADD1/SPIModule/SPIModule.v
+!i122 10
+L0 15 51
+R12
+R13
+r1
+!s85 0
+31
+!s108 1778722432.000000
+!s107 /home/ritish/Desktop/2026Uni/ADD1/SPIModule/SPIModule.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/ritish/Desktop/2026Uni/ADD1/SPIModule/SPIModule.v|
+!i113 0
+R14
+R8
+n@s@p@i@module

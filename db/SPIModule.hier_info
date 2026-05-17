@@ -1,0 +1,50 @@
+|SPIModule
+clk50 => clk50.IN1
+DS[0] => ~NO_FANOUT~
+DS[1] => ~NO_FANOUT~
+DS[2] => ~NO_FANOUT~
+DS[3] => ~NO_FANOUT~
+DS[4] => ~NO_FANOUT~
+BR[0] => BR[0].IN1
+BR[1] => BR[1].IN1
+BR[2] => BR[2].IN1
+SPE => ~NO_FANOUT~
+MSTR => ~NO_FANOUT~
+CPOL => ~NO_FANOUT~
+CPHA => ~NO_FANOUT~
+rst_n => rst_n.IN1
+SCK <= <GND>
+MOSI <= <GND>
+
+
+|SPIModule|ClkDivider:clkdivider
+MR_n => counterValue.OUTPUTSELECT
+MR_n => counterValue.OUTPUTSELECT
+MR_n => counterValue.OUTPUTSELECT
+MR_n => counterValue.OUTPUTSELECT
+MR_n => counterValue.OUTPUTSELECT
+MR_n => counterValue.OUTPUTSELECT
+MR_n => counterValue.OUTPUTSELECT
+MR_n => counterValue.OUTPUTSELECT
+CEP => counterValue.OUTPUTSELECT
+CEP => counterValue.OUTPUTSELECT
+CEP => counterValue.OUTPUTSELECT
+CEP => counterValue.OUTPUTSELECT
+CEP => counterValue.OUTPUTSELECT
+CEP => counterValue.OUTPUTSELECT
+CEP => counterValue.OUTPUTSELECT
+CEP => counterValue.OUTPUTSELECT
+clk50 => counterValue[0].CLK
+clk50 => counterValue[1].CLK
+clk50 => counterValue[2].CLK
+clk50 => counterValue[3].CLK
+clk50 => counterValue[4].CLK
+clk50 => counterValue[5].CLK
+clk50 => counterValue[6].CLK
+clk50 => counterValue[7].CLK
+clkSelector[0] => Mux0.IN2
+clkSelector[1] => Mux0.IN1
+clkSelector[2] => Mux0.IN0
+clkOut <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

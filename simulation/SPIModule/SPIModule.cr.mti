@@ -1,0 +1,9 @@
+/home/ritish/Desktop/2026Uni/ADD1/SPIModule/ClkDivider.v {1 {vlog -work work -vopt -stats=none /home/ritish/Desktop/2026Uni/ADD1/SPIModule/ClkDivider.v
+Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+** Note: (vlog-220) '/home/ritish/Desktop/2026Uni/ADD1/SPIModule/simulation/SPIModule/SPIModule.mpf' is used as the ini file.
+-- Compiling module ClkDivider
+
+Top level modules:
+	ClkDivider
+
+} {} {}}
